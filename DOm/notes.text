@@ -1,0 +1,5 @@
+What is a js window?       
+Ans : The window is a root/top lavel at the js object hierarchy.It is a global/root object in js and it is the root object of the document object model(DOM).
+
+What is a js window? 
+Ans :A document is an object inside the window object 
