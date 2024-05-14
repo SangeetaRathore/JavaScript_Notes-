@@ -9,7 +9,13 @@
 
 
 
-// Variable: A variable is a container for storing data values.let and const are used to declare a variable. (ES6) - 2015.var is also used to declare a variable but it is not recommended. = is used to assign value to a variable , assignment operator.We can not redeclare a variable using let keyword.identifier - name of the variable.in const , we can not reassign a variable and we can not redeclare a variable.
+/* Variable: A variable is a container for storing data values.
+let and const are used to declare a variable. (ES6) - 2015.
+var is also used to declare a variable but it is not recommended. 
+= is used to assign value to a variable , assignment operator.
+We can not redeclare a variable using let keyword.
+identifier - name of the variable.
+in const , we can not reassign a variable and we can not redeclare a variable.
 
 // Hoisting- JavaScript hoisting is the process of moving all the declarations to the top of the current scope (block scope / functional scope).
 
@@ -17,7 +23,7 @@
 //  var - global scope / functional scope
 // let and const - block scope
 // var - hositing
-// let and const - no hositing
+// let and const - no hositing*/
 
 // Rule for naming JS variable:
 
