@@ -1,6 +1,8 @@
-// let fragment = new DocumentFragment(); // OR, let fragment = document.createDocumentFragment();
+// let fragment = new DocumentFragment(); //
+//  OR
+let fragment = document.createDocumentFragment();
 
-// let languages = ['HTML', 'CSS', 'JavaScript'];
+// let languages = ['sangeeta', 'vishal', 'vinay'];
 
 // let langEl = document.querySelector('#language');
 
@@ -18,7 +20,7 @@
 
 // let langEl = document.querySelector('ul');
 
-// let addedLanguages = ['Python', 'Java', 'C++', 'C#', 'Ruby', 'PHP'];
+// let addedLanguages = ['radha', 'rani', 'komal', 'nisha', 'chandni', 'uma'];
 
 // const items = addedLanguages.map((language) => {
 //     const li = document.createElement('li');
@@ -77,14 +79,14 @@
 // langEl.insertBefore(newLang, langEl.children[1]);
 
 
-// insertAfter() method
+// // insertAfter() method
 
-let langEl = document.querySelector('#language');
+// let langEl = document.querySelector('#language');
 
-function insertAfter(newNode, existingNode) {
-    existingNode.parentNode.insertBefore(newNode, existingNode.nextSibling);
-}
+// function insertAfter(newNode, existingNode) {
+//     existingNode.parentNode.insertBefore(newNode, existingNode.nextSibling);
+// }
 
-let newLang = document.createElement('li');
-newLang.innerHTML = 'Python';
-insertAfter(newLang, langEl.lastElementChild);
+// let newLang = document.createElement('li');
+// newLang.innerHTML = 'Python';
+// insertAfter(newLang, langEl.lastElementChild);
