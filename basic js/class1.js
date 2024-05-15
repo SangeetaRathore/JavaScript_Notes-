@@ -177,3 +177,26 @@ let num8 = 10;
 // String + Number = String
 
 //  + concatenation operator
+
+// let a = "Java";
+// let b = "Script";
+// let output  = a < b;
+// console.log(output);
+
+
+// let a = 5;
+// let b = 10;
+// console.log(a == b && a < b);
+// console.log(a == b || a < b);
+// console.log(!(a == b));
+
+
+
+// let a = 10;
+// console.log(++a);
+// console.log(a++);
+// console.log(a);
+// console.log(--a);
+// console.log(a);
+// console.log(a--);
+// console.log(a);
