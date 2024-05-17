@@ -28,7 +28,7 @@ let fragment = document.createDocumentFragment();
 //     return li;
 // })
 
-// langEl.lastChild.after(...items);
+// langEl.lastChild.after(...items);   //rest operator
 
 
 

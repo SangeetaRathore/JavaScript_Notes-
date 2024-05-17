@@ -1,0 +1,17 @@
+DOM - Document Object Model
+DOM is an API(application programming interface) for manipulating HTML Documents.
+
+DOM , HTML Document, as tree of node
+
+
+target HTML elements - 
+
+Selectors - 
+getELementById()
+getELementByClassName()
+getELementByTagName()
+querySelector()
+querySelectorAll()
+
+manipulate - 
+Style
