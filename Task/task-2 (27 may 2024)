@@ -1,0 +1,81 @@
+// find the factorial number using while loop
+function factorial(n) {
+         if (n < 0) {
+           return "Factorial is not defined for negative numbers";
+         }
+       
+         let result = 1;
+         
+         while (n > 0) {
+           result *= n;
+           n--;
+         }
+         
+         return result;
+}
+       
+// console.log(factorial(5)); 
+       
+
+
+// find the factorial number using for loop
+
+function fac(num) {
+    let sum = 1;
+    for (let i = num; i >= 1; i--) {
+        sum = sum * i;
+    }
+    return sum;
+}
+
+// console.log(factorial(5));
+
+
+
+
+// print output given positive number to 1
+function counter(num) {
+         if (num <=0){
+             console.log("equal to zero or negative number")
+             return 
+         }
+         if (num ==1) {
+             console.log(1);
+             return;
+         }
+         console.log(num);
+         counter(num - 1);
+}
+     
+// counter(0);
+
+
+// print the power of giver number
+function power(base, expo) {
+         if (expo === 0) {
+             return 1;
+         }
+         if (expo === 1) {
+             return base;
+         }
+         return base * power(base, expo - 1);
+}
+     
+     
+// console.log(power(2, 3));
+
+
+// sum of array
+function sumOfArray(arra) {
+         let sum=0
+         if (arra.length === 0) {
+           return sum;
+         }
+         sum=arra[0] + sumOfArray(arra.slice(1));
+         return sum;
+}
+
+const myArray = [1, 2, 3, 4, 5,6,7,8,9];
+console.log(sumOfArray(myArray));
+       
+       
