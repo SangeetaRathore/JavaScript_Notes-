@@ -50,6 +50,7 @@ function counter(num) {
 // counter(0);
 
 
+
 // print the power of giver number
 function power(base, expo) {
          if (expo === 0) {
@@ -61,8 +62,8 @@ function power(base, expo) {
          return base * power(base, expo - 1);
 }
      
-     
 // console.log(power(2, 3));
+
 
 
 // sum of array
@@ -76,6 +77,74 @@ function sumOfArray(arra) {
 }
 
 const myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-console.log(sumOfArray(myArray));
+// console.log(sumOfArray(myArray));
+
+
+
+
+
+//                             Class     Work
+
+
+
+// Write a recursive function that takes a number and returns the sum of all the numbers from zero to that number.
+
+function sumOfNumber(num){
+         if (num==0){
+                  return 0;
+         }
+         return num + sumOfNumber(num-1)
+}
+
+// console.log(sumOfNumber(2))
+
+
+//Write a recursive function that takes a number as an input and returns the factorial of that number.
+
+function fact(num){
+         if (num<0){
+                  return "It is a negative number and It is invalid number of factorial."
+         }
+         else if (num<=1){
+                  return 1;
+         }
+         return num * fact(num-1)
+}
+// console.log(fact(0));
+
+
+// Write a recursive function that takes a number ‘n’ and returns the nth number of the Fibonacci number.
+
+function fibonacci(n) {
+    if (n <= 0) {
+      return 0;
+  } else if (n === 1) {
+      return 1;
+  } else {
+      return fibonacci(n - 1) + fibonacci(n - 2);
+  }
+  
+}
+
+
+console.log(fibonacci(0));   // Output: 0
+console.log(fibonacci(1));   // Output: 1
+console.log(fibonacci(2));   // Output: 1
+console.log(fibonacci(3));   // Output: 2
+console.log(fibonacci(4));   // Output: 3
+console.log(fibonacci(5));   // Output: 5
+console.log(fibonacci(10));  // Output: 55
+
+
+
+
+     
+
+
+     
+
+
+
+
        
-      
+    
