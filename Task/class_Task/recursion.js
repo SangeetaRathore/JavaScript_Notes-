@@ -136,11 +136,78 @@ console.log(fibonacci(5));   // Output: 5
 console.log(fibonacci(10));  // Output: 55
 
 
+// Write a recursive function that takes a list of numbers as an input and returns the product of all the numbers in the list.
+
+function productOfNumber(arra){
+    let product=1
+        if (arra.length === 0) {
+           return product;
+        }
+        product=arra[0] * productOfNumber(arra.slice(1));
+        return product;
+}
+let myArray1 = [1,2,3,4,5,6,7,8,9,10]
+// console.log(productOfNumber(myArray1))
 
 
-     
+// Write a function that takes a string and returns if the string is a palindrome.
+
+const isPalindrome = (text,originalText = text) => {
+    if (typeof text !== 'string' || text.length === 0) {
+      return 'String should not be empty!';
+    }
+    if (text.length == 1) {
+      return originalText;
+    }
+    if (text[0] !== text[text.length - 1]) {
+      return 'It is not a palindrome';
+    }
+    return isPalindrome(text.slice(1, text.length - 1), originalText);
+  };
+  
+//   console.log(isPalindrome("racecar"));
+//   console.log(isPalindrome("hello"));
+//   console.log(isPalindrome("madam"));       
+//   console.log(isPalindrome("a"));      
+//   console.log(isPalindrome(""));
+  
+// Write a recursive function that takes a string and reverse the string.
 
 
+
+// Write a recursive function that takes an array of words and returns an array that contains all the words capitalized.
+// input array :    ['foo', 'bar', 'world', 'hello']
+// output array : ['FOO', 'BAR', 'WORLD', 'HELLO']
+
+
+const capitalizeWords = (words) => {
+    if (words.length === 0) {
+        return [];
+    }
+    const firstWord = words[0].toUpperCase();
+    const restCapitalized = capitalizeWords(words.slice(1));
+    return [firstWord, ...restCapitalized];
+};
+      
+const inputArray = ['foo', 'bar', 'world', 'hello'];
+const outputArray = capitalizeWords(inputArray);
+// console.log(outputArray);
+      
+
+
+// Write a recursive function to find sum of range a-b numbers.
+	// example - [5,8]
+	// sum = 26
+
+function sumOfRangeNumber(a,b){
+    let sum = a    
+    if(a==b){
+        return sum
+    }
+    return sum = sum + sumOfRangeNumber(a+1,b)
+}
+
+console.log(sumOfRangeNumber(1,9))
      
 
 
