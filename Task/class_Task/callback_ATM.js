@@ -8,6 +8,7 @@
 // Leave ATM
 
 
+
 function insertTheCard(enterThePin){
     setTimeout(()=>{
         console.log("Processing");
