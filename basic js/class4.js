@@ -17,7 +17,7 @@
 // }
 
 // let input = "";
-// // let message = input || "Hello!";
+// let message = input || "Hello!";
 // let message = "Hello!" || input;
 // console.log(message);
 
@@ -26,7 +26,7 @@
 //     console.log("We have a name");
 // } else {
 //     console.log("We have no name");
-// }
+//  }
 
 // let fname;
 // if(fname) {
@@ -60,35 +60,39 @@
 
 // String and Number comparison
 
+// Acc. to ASCII value :symbols < 0 to 9 number < A to Z < a to z
 // console.log("Z" > "A");
 // console.log("A" > "B");
 // console.log("Priyanka" > "Punam");
 // console.log("Mee" > "Me");
-// console.log("Priya" > "Priyanka");
+// console.log("Priya" > "Priyanka"); // it will check acc to length of string
 // console.log("a" > "A");
+
+
 
 // console.log("2" > 1); // "2" will convert to 2
 // console.log("01" == 1); // "01" will convert to 1
-// console.log("A" > 0);
+// console.log("A" > 0);  // In JavaScript, A can't convert in numver so its is NaN and any comparison with NaN always returns false
+
 // console.log("A" == 65); //it not convert A acc. to ASCII value
 
-// console.log(true > 0);
-// console.log(false > 0);
-// console.log(true == 1);
-// console.log(false == 0);
+// console.log(true > 0);  //true
+// console.log(false > 0); //false
+// console.log(true == 1); //true
+// console.log(false == 0); //true
 
-// console.log("0" == 0);
-// console.log(Boolean("0"));
-// console.log(Boolean(0));
+// console.log("0" == 0); //true
+// console.log(Boolean("0")); //true
+// console.log(Boolean(0)); //false
 
-// console.log(typeof("0"));
-// console.log(typeof(0));
-// console.log(typeof(false));
+// console.log(typeof("0")); // string
+// console.log(typeof(0)); //number
+// console.log(typeof(false)); //boolean
 
-// console.log(false === 0);
-// console.log(null == undefined);
-// console.log(null === undefined);
+// console.log(false === 0); //false
+// console.log(null == undefined); //true
+// console.log(null === undefined); //false
 
-// console.log(undefined == 0);
-// console.log(undefined > 0);
-// console.log(undefined < 0);
+// console.log(undefined == 0); //false
+// console.log(undefined > 0);  //false
+// console.log(undefined < 0);  //false
