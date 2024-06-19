@@ -3,10 +3,21 @@
 
 
 // console.log("hello"); //text or String
+// " "  OR ' ' IS used to write the string
 // console.log(5); //number
 
 // alert("Hello World");
 
+
+// console.log("Name = " ,firstname,lastname);
+
+
+
+// // let button = document.getElementById('btn'); // button
+// // let text = document.getElementById('text'); //text
+// // button.addEventListener('click', function(){  //change text on button click
+// //     text.innerHTML = "Hii";
+// // });
 
 
 /* Variable: A variable is a container for storing data values.
@@ -70,7 +81,7 @@ There has 2 data type 1. primitive data type 2. non-primitive data type
 primitive data type :  it has 7 types
         a.number      b. symbol       c. bigInt    d. string    e. null   f. undefined
         g. boolean
-non-primitive data type: it has 3 types  
+Reference / non-primitive data type: it has 3 types  
         a. array     b. object     c. function
 
 */
@@ -105,6 +116,11 @@ console.log(test);
 // What is JavaScript?
 /*
 Ans: Dynamically type language - JS
+JavaScript is a lightweight, cross-platform, single-threaded, and interpreted compiled programming language. It is also known as the scripting language for webpages. It is well-known for the development of web pages, and many non-browser environments also use it.
+JavaScript is a weakly typed language (dynamically typed). JavaScript can be used for Client-side developments as well as Server-side developments.
+JavaScript is considered lightweight due to the fact that it has low CPU usage, is easy to implement, and has a minimalist syntax. Minimalist syntax as in, has no data types. Everything is treated here as an object. It is very easy to learn because of its syntax similar to C++ and Java.
+The V8 engine initially uses an interpreter, to interpret the code. On further executions, the V8 engine finds patterns such as frequently executed functions, and frequently used variables, and compiles them to improve performance.
+
 
 */
 
@@ -155,9 +171,7 @@ let num8 = 10;
 // post increment - first return then increment
 // pre increment - first increment then return
 
-// console.log(num8--,"first");
 
-// console.log(num8,"second");
 
 // console.log(num8 -- ,"first"); // 10
 
@@ -183,6 +197,8 @@ let num8 = 10;
 // let output  = a < b;
 // console.log(output);
 
+
+// Logical Operators --> &&, ||, !
 
 // let a = 5;
 // let b = 10;
