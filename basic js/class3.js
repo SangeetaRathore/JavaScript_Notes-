@@ -80,30 +80,30 @@
 // B. if a is undefined, then b.
 
 // let a = 5;
-// console.log(a ?? "Hello");
+// console.log(a ?? "Hello"); //5
 
 // let b = undefined;
-// console.log(b ?? "Hello");
+// console.log(b ?? "Hello"); //Hello
 
 // let firstName;
 // let lastName;
 // let nickName = "SuperCoder";
-// console.log(firstName ?? lastName ?? "Anonymous");
-// console.log(firstName ?? lastName ?? nickName ?? "Anonymous");
+// console.log(firstName ?? lastName ?? "Anonymous");  //Anonymous
+// console.log(firstName ?? lastName ?? nickName ?? "Anonymous"); //SuperCoder
 
 // let height = 0;
-// console.log(height ?? 100);
-// console.log(height || 100);
+// console.log(height ?? 100); //0
+// console.log(height || 100); //100
 
 // let height = 10;
 // let width;
 // let area = (height ?? 100) * (width ?? 50);
-// console.log(area);
+// console.log(area); //500
 
 // let height;
 // let width = 10;
 // let area = (height ?? 100) * (50 ?? width ?? 100 ?? 10);
-// console.log(area);
+// console.log(area); //5000
 
 
 // Truthy and Falsy values
@@ -120,10 +120,12 @@
 // console.log(Boolean(NaN));
 
 // let height = 0;
-// console.log(height ?? 100);
-// console.log(height || false || NaN);
+// console.log(height ?? 100); //0
+// console.log(height || false || NaN); //NaN : when all are the falsy value it will print last  falsy value
 
 // let a = "";
 // let b = "";
-// console.log(a ?? 5);
-// console.log(b || 10);
+// console.log(a ?? 5); //
+// console.log(b || 10); //10
+
+
