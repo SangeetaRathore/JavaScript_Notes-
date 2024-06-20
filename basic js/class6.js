@@ -74,12 +74,12 @@
 
 // isNaN() - Checks if the value is NaN
 
-console.log(NaN);  //NaN
-console.log(isNaN(NaN)); //true
-console.log(isNaN(10)); //false
-console.log(isNaN('10')); //false becuse NaN  is try convert the value in number
-console.log(isNaN('Hello')); //true
-console.log(isNaN('10Hello')); //true
+// console.log(NaN);  //NaN
+// console.log(isNaN(NaN)); //true
+// console.log(isNaN(10)); //false
+// console.log(isNaN('10')); //false becuse NaN  is try convert the value in number
+// console.log(isNaN('Hello')); //true
+// console.log(isNaN('10Hello')); //true
 
 // isFinite() - Checks if the value is a finite number
 
