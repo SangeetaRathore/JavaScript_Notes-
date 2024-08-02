@@ -1,18 +1,21 @@
-let fName = "Shrutika";
+// let fName = "Shrutika";
 
-function sayHello() {
-    fName = "Vishakha";
+// function sayHello() {
+//     fName = "Vishakha";
 
-    let message = "Hello " + fName;
-    console.log(message);
-}
-console.log(fName);
-sayHello();
-console.log(fName);
+//     let message = "Hello " + fName;
+//     console.log(message);
+// }
+// console.log(fName);
+// sayHello();
+// console.log(fName);
 
 
 
 // Parameters and Arguments
+// a parameter is a variable in the function definition, while an argument is the actual value that is passed to the function when it is called.
+
+
 
 // function greet(name) {
 //     console.log("Hello " + name);
@@ -47,26 +50,31 @@ console.log(fName);
 // }
 // age('Rajkumar', 20);
 
-function greet(fName1, age) {
-    fName1 = "Hi" + fName1;
-    console.log(fName1 + age);
-}
+// function greet(fName1, age) {
+//     fName1 = "Hi" + fName1;
+//     console.log(fName1 + age);
+// }
 var fName1 = "Gayatri";
 greet(fName1, 20);
 console.log(fName1);//Since the modification of fName1 inside the function doesn't affect the global fName1 (due to parameter shadowing), the value remains "Gayatri"
 
-// function greet(fName, age = 22) {
-//     console.log("Hello " + fName + " you are " + age + " years old");
-// }
-// greet("Nikita");
-// greet("Nikita", 20);
-// greet("Eram", undefined);
-// greet("Eram", null);
-// greet("Eram", false);
+function greet(fName, age = 22) {
+    console.log("Hello " + fName + " you are " + age + " years old");
+}
+
+greet("Nikita");
+greet("Nikita", 20);
+greet("Eram", undefined);
+greet("Eram", null);
+greet("Eram", false);
 
 
 // null vs undefined
-// undefined vs not defined
+// undefined means a variable has been declared but has not yet been assigned a value, whereas null is an assignment value, meaning that a variable has been declared and given the value of nul
+
+// undefined vs not defined : 
+// In JavaScript, "undefined" refers to a specific, predefined value that indicates a variable has been declared but has not been assigned a value. On the other hand, "not defined" typically occurs when trying to access a variable or object property that does not exist, resulting in a ReferenceError.
+
 
 // function place(city, country) {
 //     if(country === undefined) {

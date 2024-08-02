@@ -166,6 +166,7 @@
 // greet();
 // console.log(fName);
 
+
 // let fName = "John";
 // function greet() {
 //     fName = "Sushmita";
@@ -196,3 +197,19 @@
 // 5. Evaluation Error
 // 6. RangeError 
 // 7. Internal Error
+
+
+// Syntax Error: If you are messed with javascript syntax.
+// let a=10;
+// let a=23;
+
+// Reference Error: If you are trying to access a variable before declaring it.
+// console.log(b);
+// let b=4;
+
+
+// Type Error: If you are trying to reassign a value to a constant variable.
+
+
+// const s=89;
+// s=34;
