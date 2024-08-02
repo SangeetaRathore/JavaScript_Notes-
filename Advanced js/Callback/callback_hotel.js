@@ -44,17 +44,17 @@ function preparedFood(delivered){
          }, 10000);
 }
      
-function deliveredFood(eatingFood){
+function deliveredFood(ieatingFood){
          setTimeout(()=>{
              console.log("Food is delivered");
-             eatingFood(payment);
+             ieatingFood(payment);
          }, 5000);
 }
      
 function eatingFood(payment){
          setTimeout(()=>{ 
              console.log("Eating Food");
-             payment(leaveHotel);
+             payment(leaveHotel); //payment name can be changed but callback fun shoukd be same  as function name
          }, 3000);
 }
      

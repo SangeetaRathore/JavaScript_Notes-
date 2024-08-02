@@ -1,0 +1,10 @@
+ through these three links to know about regex and its uses -
+https://www.freecodecamp.org/news/regular-expressions-for-beginners/
+https://www.freecodecamp.org/news/regex-in-javascript/
+https://www.w3resource.com/javascript/form/email-validation.php (Email Validation)*
+
+
+
+Date Object
+https://gist.github.com/LeCoupa/304493f4914d4e013c3b
+https://www.w3schools.com/js/js_dates.asp

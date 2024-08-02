@@ -123,9 +123,9 @@
 // console.log(height ?? 100); //0
 // console.log(height || false || NaN); //NaN : when all are the falsy value it will print last  falsy value
 
-// let a = "";
-// let b = "";
-// console.log(a ?? 5); //
-// console.log(b || 10); //10
+let a = "";
+let b = "";
+console.log(a ?? 5); // 
+console.log(b || 10); //10
 
 

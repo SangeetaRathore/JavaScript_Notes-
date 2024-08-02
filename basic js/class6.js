@@ -39,7 +39,7 @@
 // console.log(b);
 // console.log(b/100);
 
-// toFixed() - Rounds to the nearest integer and returns a string
+// 4. .toFixed() - Rounds to the nearest integer and returns a string
 
 // let num = 3.14159265359;
 // console.log(typeof num); //number
@@ -58,8 +58,8 @@
 // let a = 1/3;
 // console.log(a.toFixed(20));
 
-// console.log(0.1 + 0.2 === 0.3);
-// console.log(0.1 + 0.2); //false
+// console.log(0.1 + 0.2 === 0.3); //false
+// console.log(0.1 + 0.2); 
 
 // console.log(0.1.toFixed(20));
 // console.log(0.2.toFixed(20));
@@ -70,9 +70,7 @@
 // console.log(99999999999999999);
 
 
-// finish
-
-// isNaN() - Checks if the value is NaN
+// 5. isNaN() - Checks if the value is NaN
 
 // console.log(NaN);  //NaN
 // console.log(isNaN(NaN)); //true
@@ -81,7 +79,7 @@
 // console.log(isNaN('Hello')); //true
 // console.log(isNaN('10Hello')); //true
 
-// isFinite() - Checks if the value is a finite number
+//6.  isFinite() - Checks if the value is a finite number
 
 // console.log(isFinite(10));
 // console.log(isFinite('10'));

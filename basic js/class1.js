@@ -109,9 +109,9 @@ console.log(test);
 // undefined - variable is declared but not assigned any value.
 // // null - variable is declared and assigned null value.
 
-// let box2 = null; // empty
+let box2 = null; // empty
 
-// // console.log(box2);
+// console.log(box2);
 
 // What is JavaScript?
 /*

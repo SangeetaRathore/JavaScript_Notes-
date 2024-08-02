@@ -43,10 +43,10 @@
 // console.log(a >= b);
 // console.log(a <= b);
 
-// let a = "Java";
-// let b = "Script";
-// let output  = a < b;
-// console.log(output);
+let a = "Java";
+let b = "Script";
+let output  = a < b;
+console.log(output);
 
 // let x = "A";
 // let y = "B";

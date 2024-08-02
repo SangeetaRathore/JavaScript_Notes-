@@ -72,7 +72,7 @@
 
 // console.log("2" > 1); // "2" will convert to 2
 // console.log("01" == 1); // "01" will convert to 1
-// console.log("A" > 0);  // In JavaScript, A can't convert in numver so its is NaN and any comparison with NaN always returns false
+// console.log("A" > 0);  // In JavaScript, A can't convert in numver so its gives false and any comparison with NaN always returns false
 
 // console.log("A" == 65); //it not convert A acc. to ASCII value
 
