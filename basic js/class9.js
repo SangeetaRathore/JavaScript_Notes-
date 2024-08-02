@@ -1,4 +1,6 @@
 // Loops - for, while, do while
+// The for loop is used when the number of iterations is known. The while loop is used when the number of iterations is unknown.whereas execution is done in a while loop until the statement in the program is proved wrong.do while is done atleast once.
+
 
 // for loop
 
@@ -18,7 +20,7 @@
 // console.log(i);
 
 // let i = 0;
-// for (let i = 0; i < 5; i++) {
+// for (let i=0; i < 5; i++) {
 //     console.log(i);
 // }
 // console.log(i);
@@ -125,6 +127,7 @@
 
         // print the numbers from 1 to 10 using for loop and break statement
 
+// Break: It is used to terminate and exit a loop (that is, do , for , and while ) or switch command from any point other than the logical end.
 
 // Functions
 // Functions = A set of statements that performs a task or calculates a value

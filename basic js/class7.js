@@ -102,11 +102,11 @@
 //The slice() method of String values extracts a section of this string and returns it as a new string, without modifying the original string.
 
 
-let str = "hello";
-let firstChar = str[0].toUpperCase();
-let remainingChars = str.slice(1).toLowerCase();
-console.log(remainingChars);
-console.log(firstChar + remainingChars);
+// let str = "hello";
+// let firstChar = str[0].toUpperCase();
+// let remainingChars = str.slice(1).toLowerCase();
+// console.log(remainingChars);
+// console.log(firstChar + remainingChars);
 
 
 

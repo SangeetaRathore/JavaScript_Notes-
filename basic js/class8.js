@@ -1,6 +1,6 @@
-let str = "This is a string";
+// let str = "This is a string";
 
-console.log(str.indexOf(" "));
+// console.log(str.indexOf(" "));
 
 // if(str.indexOf("This") !== -1) {
 //     console.log("Found");
@@ -47,13 +47,13 @@ console.log(str.indexOf(" "));
 
 // slice() - Extracts a part of a string and returns a new string
 
-// let str = "this is a string";
-// console.log(str.slice(0, 3));
-// console.log(str.slice(5, 8));
-// console.log(str.slice(0));
-// console.log(str.slice(5));
-// console.log(str.slice(-6));
-// console.log(str.slice(5, -6));
+let str = "this is a string";
+console.log(str.slice(0, 3));
+console.log(str.slice(5, 8));
+console.log(str.slice(0));
+console.log(str.slice(5));
+console.log(str.slice(-6));
+console.log(str.slice(5, -6));
 
 
 // substring() - Extracts the characters from a string, between two specified indices
