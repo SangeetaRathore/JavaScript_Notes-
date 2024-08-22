@@ -70,7 +70,7 @@ greet("Eram", false);
 
 
 // null vs undefined
-// undefined means a variable has been declared but has not yet been assigned a value, whereas null is an assignment value, meaning that a variable has been declared and given the value of nul
+// undefined means a variable has been declared but has not yet been assigned a value, whereas null is an assignment value, meaning that a variable has been declared and given the value of null.
 
 // undefined vs not defined : 
 // In JavaScript, "undefined" refers to a specific, predefined value that indicates a variable has been declared but has not been assigned a value. On the other hand, "not defined" typically occurs when trying to access a variable or object property that does not exist, resulting in a ReferenceError.
