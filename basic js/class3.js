@@ -77,7 +77,10 @@
 
 // The result of a ?? b is:
 // A. if a is defined, then a,
-// B. if a is undefined, then b.
+// B. if a is undefined / null, then b.
+
+// let a=null;
+// console.log(a ?? 10);
 
 // let a = 5;
 // console.log(a ?? "Hello"); //5
