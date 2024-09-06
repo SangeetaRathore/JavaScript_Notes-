@@ -1,0 +1,9 @@
+// var x = 5;
+// (function () {
+//   var x = 10;
+//   console.log(x);
+
+})();  //Variable shadowing
+shift, pop - Element
+unshift, push - length
+temporal dead zone -: temporal dead zone is a time between the variable creation and the variable initialization.
