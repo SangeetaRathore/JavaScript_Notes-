@@ -1,15 +1,62 @@
-//  Print the output
 // ; is used to terminate the line
+/* github and vscode is product of Microsoft.
 
+IDE =  Integrated Development Environment, 
+which is a software application that helps programmers develop software code more efficiently.
+
+Terminal command: node <filname> to run the file.*/
 
 // console.log("hello"); //text or String
-// " "  OR ' ' IS used to write the string
+// " "  OR ' ' OR template literal(  ` hello &{}`  )IS used to write the string.
 // console.log(5); //number
 
-// alert("Hello World");
+// alert("Hello World"); 
+
+// convresion of data type
+
+// let score = 33
+// let changeIntoString = String(score)
+// console.log( typeof score);
+
+// let score = "33abc"
+// let changeIntoString = Number(score)
+// console.log( typeof changeIntoString);  //number
+// console.log(changeIntoString); //Nan
+
+// +  is knaown as concating operator
+// string+ number = string
+
+// console.log(null > 0 ); //false
+// console.log(null == 0 ); //false
+// console.log(null >= 0 ); //true
+
+/*  reason : The reason is that an equality check == and comparisons > < >= <= work differently . Comparison convert null to a number , treating it as 0 that's why 3rd is true and 1st is false.
+underfined gives false with all.
+
+
+=== called strick check . It check the value and also data type.
+
+null means no zero, there has no value  
+*/
+
+
+const valu1 = Symbol('123') 
+const valu2 = Symbol('123') 
+// console.log(valu1===valu2); //false
+// symbols gives a differet identity to each value
 
 
 // console.log("Name = " ,firstname,lastname);
+
+// put the n in the last it makes BigInt
+
+/* types of function is object function , gives function in o/p */
+
+/*
+In JS , there are 2 types of memory  
+1. stack memeory    2. heap memory
+all primitive data goes in stack memeory .In stack memeory it makes a copy.
+All non-primitive data types goes to heap memory . It gives refrence of original memory.
 
 
 
@@ -31,7 +78,7 @@ in const , we can not reassign a variable and we can not redeclare a variable.
 // Hoisting- JavaScript hoisting is the process of moving all the declarations to the top of the current scope (block scope / functional scope).
 
 
-//  var - global scope / functional scope
+// var - global scope / functional scope
 // let and const - block scope
 // var - hositing
 // let and const - no hositing*/
@@ -216,3 +263,5 @@ let num8 = 10;
 // console.log(a);
 // console.log(a--);
 // console.log(a);
+
+

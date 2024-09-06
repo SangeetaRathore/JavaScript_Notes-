@@ -27,7 +27,7 @@ IIFE fn : A JavaScript IIFE (Immediately Invoked Function Expression) is a funct
 
 3. Arrow fn:  Arrow functions are a shorthand syntax for anonymous functions that was introduced in ECMAScript 6 (ES6). They are also sometimes referred to as fat arrow functions or lambda shorthand. Here is an example:
 
-let helloWorld = () =&gt; { 
+let helloWorld = () =>; { 
   console.log('Hello World!'); 
 }
 Arrow functions are typically used when writing concise code and when the same code needs to be executed only once or twice throughout a program. They can be assigned to variables or passed as parameters to other functions.

@@ -61,6 +61,7 @@
 // String and Number comparison
 
 // Acc. to ASCII value :symbols < 0 to 9 number < A to Z < a to z
+
 // console.log("Z" > "A");
 // console.log("A" > "B");
 // console.log("Priyanka" > "Punam");
@@ -96,3 +97,33 @@
 // console.log(undefined == 0); //false
 // console.log(undefined > 0);  //false
 // console.log(undefined < 0);  //false
+
+
+/*
+console.log(typeof (1234 )) //number
+console.log(typeof (1.23 )) //number
+console.log(typeof ( 12n)) //bigint
+console.log(typeof ( null)) //object
+console.log(typeof ( undefined)) //undefined
+console.log(typeof ("string" )) //string
+console.log(typeof ( true )) //boolean
+
+let a  = Symbol("123")
+console.log(typeof (a )) //symbol
+
+
+
+let obj = {
+    name:"sangeeta"
+} 
+console.log(typeof (obj)) //object
+
+
+
+let arr  = [1,2,3]
+console.log(typeof (arr)) //object
+
+let say = function () {};
+
+console.log(typeof say); //fucntion
+*/

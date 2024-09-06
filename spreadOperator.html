@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Spread operator</title>
+</head>
+<body>
+         
+         <h1>raja</h1>
+         <script>
+
+                  let arr=[1,2,3,4,5]
+                  // destructuring of aarayy by spread opeartor
+                  const [a,s,d,f,g] = [...arr]
+                  // console.log(a);
+                  // console.log(s);
+                  // console.log(d);
+                  // console.log(f);
+                  // console.log(g);
+
+
+                  // add the multiple array by using spread operator
+                  let arra1 = [10,20,30,40]
+                  let arra2 = [11,22,33,44,55]
+                  let arra4 = [1,2,3,4,5]
+                  // let arra3 = [...arra2,...arra1,...arra4]
+                  // let arra3 = arra1.concat(arra4)
+
+                  // console.log(arra3);
+
+                  // clone/copy  the array
+                  let myA1 = [1,2,3,4]
+                  // let myA2 = myA1
+                  myA1.push(12)
+
+                  // console.log(myA1); //1,2,3,4,12
+                  // console.log(myA2); //1,2,3,4,12
+
+                  let myA2 = [...myA1]
+                  myA1.push(12)
+
+                  // console.log(myA1); //1,2,3,4,12
+                  // console.log(myA2); //1,2,3,4
+
+
+                  // merge multiple object
+                  let obj1 = {
+                           name:"sangeeta",
+                  }
+
+                  let obj2 = {
+                           age:23,
+                  }
+
+                  let obj3 = {...obj1,...obj2}
+                  // console.log(obj3);
+
+
+                  // diffrence b/w spread op. and  rest opearta
+                  function add(va2,...reaming){ //rest operator accepet the multiple value then it will stor in one array.
+                           for (let i  = 0; i < reaming.length; i++) {
+                                    console.log(reaming[i]);
+                           }
+                  }
+
+                  let ae=[1,2,3,45,5]
+                  add(12,...ae) // spread operator , rest oper. accept multiple value but it is a single arra so , used spread operator  single array to multiple value .
+                  
+                  // ther
+
+
+
+
+                                    
+                  
+         </script>
+</body>
+</html>

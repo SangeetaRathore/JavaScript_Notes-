@@ -87,3 +87,5 @@
 // console.log(isFinite('10Hello'));
 // console.log(isFinite(10.5468546));
 // console.log(isFinite(Infinity));
+
+

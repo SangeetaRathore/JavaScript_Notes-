@@ -16,6 +16,7 @@
 
 
 // includes() - Returns true if a string contains a specified string, otherwise false
+// string.includes(searchvalue, start from)
 
 // let str = "This is a string";
 // console.log(str.includes("This"));

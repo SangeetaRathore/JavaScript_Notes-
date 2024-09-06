@@ -131,4 +131,19 @@ let b = "";
 console.log(a ?? 5); // 
 console.log(b || 10); //10
 
+// null is standalone value
+// typeof(null)  "o/p= object" 
+// typeof(undefined)  "o/p= undefined" 
+// typeof ()  it is used to know the type 
+
+
+// "use strict"; //treat all JS code as newer version
+
+// alert("saan")   // it will give a pop menu /notification on browser
+
+/*
+Q. What is scope?
+scope in JavaScript refers to the context or environment in which variables are declared and can be accessed.
+These scopes control the accessibility of variables in different parts of your code */
+
 
